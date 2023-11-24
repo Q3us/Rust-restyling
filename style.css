@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: Montserrat;
+}
+
+
+/*Main part of header*/
+.header{
+    display: flex;
+    width: 95vw;
+}
+.logo img{
+    width: 6vw;
+    height: 6vw;
+}
+.elements{
+    display: flex;
+    justify-content: flex-end;
+    width: 99vw;
+    margin-top: 30px;
+    margin-right: 1vw;
+    font-size: 1.25vw;
+}
+.elements a{
+    margin-right: 3vw;
+    color: rgb(67, 67, 67);
+}
+/*Main part of header*/
+
+
+/* Title :) */
+.title{
+    margin-left: 15vw;
+    margin-top: -25px;
+}
+.name{
+    font-size: 45px;
+}
+.name h1{
+    font-weight: 900;
+}
+.undername{
+    margin-top: -25px;
+    width: 40vw;
+    color: rgb(83, 83, 83);
+}
+.undername h2{
+    font-weight: 400;
+    font-size: 30px;
+}
+.button{
+    margin-top: -150px;
+}
+.button button{
+    font-size: 30px;
+    padding: 20px;
+    padding-right: 55px;
+    padding-left: 55px;
+    background-color: rgb(255, 200, 0);
+    border-radius: 5px;
+    border-color: rgb(255, 200, 0);
+    margin-left: 50vw;
+}
+.button a{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -250px;
+    font-size: 30px;
+    color: rgba(0, 55, 255, 0.736);
+}
+/* Title :) */
+
+
+
+
+/*main part about why you need Rust :O*/
+.whyrust{
+    position: absolute;
+    background: #0b7261;
+    border-radius: 1px solid #0b7261;
+    width: 98.93vw;
+    height: 30vw;
+    margin-left: -8px;
+    margin-top: 150px;
+    color: white;
+}
+.whytitle{
+    text-decoration: underline solid #2e2459;
+    text-decoration-thickness: 12px;
+    margin-top: 30px;
+    margin-left: 7vw;
+}
+.whyservices{
+    display: flex;
+    justify-content: space-around;
+}
+.whyservice h2{
+    font-size: 30px;
+}
+.whyservice h3{
+    width: 300px;
+    font-size: 17px;
+    font-weight: 400;
+}
+/*main part about why you need Rust :O*/
+
+
+
+
+/*main part about build in Rust*/
+.build{
+    position: absolute;
+    background: #2e2459;
+    border-radius: 1px solid #2e2459;
+    width: 98.93vw;
+    height: 40vw;
+    margin-left: -8px;
+    margin-top: 510px;
+    color: white;
+}
+.buildtitle{
+    margin-top: 30px;
+    margin-left: 7vw;
+    text-decoration: underline solid #a72145;
+    text-decoration-thickness: 12px;
+}
+.buildundertitle{
+    margin-left: 7vw;
+    font-size: 13px;
+    margin-top: 35px;
+}
+.buildundertitle h2{
+    font-weight: 300;
+}
+.buildservice img{
+    width: 7vw;
+    height: 7vw;
+    margin-left: 70px;
+}
+.buildservices{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.buildservice h2{
+    margin-left: 50px;
+}
+.buildservice h3{
+    width: 300px;
+    font-weight: 400;
+}
+.buildservice button{
+    background-color: #a72145;
+    border-color: #a72145;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.buildbutton button{
+    padding-inline: 5vw;
+    padding-block: 0.75vw;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+/*main part about build in Rust*/
+
+
+
+
+/*part about production*/
+.ruinpr{
+    margin-top: 1200px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.ruinprtitle h1{
+    text-decoration: underline solid #ffc832;
+    text-decoration-thickness: 12px;
+}
+.underruinprtitle{
+    font-size: 15px;
+    margin-top: 45px;
+}
+.underruinprtitle h2{
+    font-weight: 500;
+    word-spacing: 10px;
+    line-height: 30px;
+}
+/*part about production*/
+
+
+/*first part of quote*/
+.quoteoneone{
+    margin-top: 75px;
+    margin-left: 10vw;
+    color: rgb(59, 59, 59);
+    width: 50vw;
+    font-size: 17px;
+}
+.quoteoneone h2{
+    font-weight: 500;
+}
+.quoteoneone img{
+    position: absolute;
+    width: 15vw;
+    margin-left: 52vw;
+    margin-top: -100px;
+}
+/*first part of first quote*/
+
+
+/*second part of first quote*/
+.quoteonetwo{
+    margin-left: 45vw;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.quoteonetwo h3{
+    font-weight: 500;
+}
+/*second part of first quote*/
+.line1{
+    width: 50vw;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.line2{
+    width: 30vw;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.quotetwoone{
+    margin-top: 5vw;
+    margin-left: 10vw;
+}
+.quotetwoone img{
+    width: 25vw;
+    margin-top: -10vw;
+}
+.quotetwoone h2{
+    font-weight: 500;
+    width: 50vw;
+    margin-left: 30vw;
+}
+.quotetwotwo h2{
+    font-weight: 500;
+    margin-left: 55vw;
+    margin-top: -3vw;
+}
+.line3{
+    width: 48vw;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-left: 30vw;
+}
