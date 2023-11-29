@@ -253,3 +253,14 @@ body{
     border-radius: 20px;
     margin-left: 30vw;
 }
+.buttonlm button{
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 2vw;
+    height: 2.5vw;
+    background-color: #ffc832;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 1.2vw;
+    font-weight: bolder;
+}
