@@ -25,25 +25,6 @@ body{
 
 }
 
-h1,h2,h3,img,a,button{
-    animation-name: startanim2;
-    animation-duration: 750ms;
-}
-@keyframes startanim2{
-
-
-    0%{
-        margin-top: 50px;
-        font-size: 0;
-    }
-
-    100%{
-    
-    }
-
-
-}
-
 
 
 
@@ -157,7 +138,7 @@ h1,h2,h3,img,a,button{
     background: #2e2459;
     border-radius: 1px solid #2e2459;
     width: 98.93vw;
-    height: 40vw;
+    height: 80vh;
     margin-left: -8px;
     margin-top: 510px;
     color: white;
@@ -310,7 +291,7 @@ h1,h2,h3,img,a,button{
 }
 .getinv{
     width: 98.93vw;
-    height: 37vw;
+    height: 100vh;
     background: #a72145;
     border-radius: 1px solid #a72145;
     margin-left: -8px;
@@ -373,7 +354,24 @@ h1,h2,h3,img,a,button{
     color: white;
     padding-right: 36.5vw;
     padding-left: 36.5vw;
-
     font-weight: bolder;
     margin-top: 1vw;
+}
+
+
+
+/*MEDIA*/
+/*MEDIA*/
+/*MEDIA*/
+/*MEDIA*/
+/*MEDIA*/
+
+
+
+@media screen and (min-width: 1400px) {
+
+
+    
+
+
 }
