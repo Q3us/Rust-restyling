@@ -104,16 +104,20 @@ body{
     background: #0b7261;
     border-radius: 1px solid #0b7261;
     width: 98.93vw;
-    height: 30vw;
+    height: 25vw;
     margin-left: -8px;
     margin-top: 150px;
     color: white;
+}
+.whycontent{
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 .whytitle{
     text-decoration: underline solid #2e2459;
     text-decoration-thickness: 12px;
     margin-top: 30px;
-    margin-left: 7vw;
+    margin-left: 5vw;
 }
 .whyservices{
     display: flex;
@@ -138,20 +142,22 @@ body{
     background: #2e2459;
     border-radius: 1px solid #2e2459;
     width: 98.93vw;
-    height: 80vh;
+    height: 650px;
     margin-left: -8px;
     margin-top: 510px;
     color: white;
 }
+.buildcontent{
+    margin-left: 13.2vw;
+    margin-right: 10vw;
+}
 .buildtitle{
     margin-top: 30px;
-    margin-left: 7vw;
     text-decoration: underline solid #a72145;
     text-decoration-thickness: 12px;
 }
 .buildundertitle{
-    margin-left: 7vw;
-    font-size: 13px;
+    font-size: 1vw;
     margin-top: 35px;
 }
 .buildundertitle h2{
@@ -160,31 +166,32 @@ body{
 .buildservice img{
     width: 7vw;
     height: 7vw;
-    margin-left: 70px;
+    margin-left: 5vw;
 }
 .buildservices{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 50px;
 }
 .buildservice h2{
-    margin-left: 50px;
+    margin-left: 3vw;
 }
 .buildservice h3{
     width: 300px;
     font-weight: 400;
+    font-size: 1.2vw;
 }
 .buildservice button{
     background-color: #a72145;
     border-color: #a72145;
-    border-radius: 5px;
+    border-radius: 4px;
     margin-top: 15px;
 }
 .buildbutton button{
-    padding-inline: 5vw;
+    padding-inline: 65px;
     padding-block: 0.75vw;
     color: white;
-    font-size: 15px;
+    font-size: 0.8vw;
     font-weight: 700;
 }
 /*main part about build in Rust*/
@@ -291,7 +298,7 @@ body{
 }
 .getinv{
     width: 98.93vw;
-    height: 100vh;
+    height: 550px;
     background: #a72145;
     border-radius: 1px solid #a72145;
     margin-left: -8px;
@@ -359,19 +366,13 @@ body{
 }
 
 
-
-/*MEDIA*/
-/*MEDIA*/
-/*MEDIA*/
-/*MEDIA*/
 /*MEDIA*/
 
 
-
-@media screen and (min-width: 1400px) {
-
+@media screen and (max-width: 1024px) {
 
     
-
+    
+    
 
 }
